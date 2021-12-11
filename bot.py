@@ -19,7 +19,7 @@ bot = Client('droplink bot',
 async def start(bot, message):
     await message.reply(
         f"**Hi {message.chat.first_name}!**\n\n"
-        "I'm a specialised bot for shortening Droplink.co links which can help you earn money by just sharing links. I am made by @ToonsHub2006.")
+        "**🤖 Iam Pdisk converter bot\n 🔄 I am a best pdisk bot\n🧑‍💻 I was developed @half_intelligent_2 \n ✅For accuses ask @half_intelligent_2**")
 
 
 @bot.on_message(filters.regex(r'https?://[^\s]+') & filters.private)
