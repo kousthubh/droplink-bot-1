@@ -19,7 +19,7 @@ bot = Client('droplink bot',
 async def start(bot, message):
     await message.reply(
         f"**Hi {message.chat.first_name}! Welcome To my world 😈**\n\n"
-        "**🤖 Iam Droplink converter bot\n 🔄 I am a best Droplink bot\n🧑‍💻 I was developed @half_intelligent_2 \n ✅For accuses ask @half_intelligent_2 /n a
+        "**🤖 Iam Droplink converter bot\n 🔄 I am a best Droplink bot\n🧑‍💻 I was developed @half_intelligent_2 \n ✅For accuses ask @half_intelligent_2 /n 😈 I am  a
 
 **")
 
