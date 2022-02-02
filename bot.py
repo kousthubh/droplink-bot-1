@@ -30,7 +30,7 @@ async def link_handler(bot, message):
         await message.reply(f' your Shorted Tnvalue ➢ [`{short_link}`]({short_link})', quote=True)
 
     except Exception as e:
-    except Exception as e:
+
         await message.reply(f'Error: {e}', quote=True)
 
 
