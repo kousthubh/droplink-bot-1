@@ -35,7 +35,7 @@ async def link_handler(bot, message):
 
 
 async def get_shortlink(link):
-    url = 'https://tnvalue.in/api'
+    url = 'https://https://link.tnvalue.in/api'
     params = {'api': API_KEY, 'url': link}
 
     async with aiohttp.ClientSession() as session:
