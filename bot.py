@@ -19,7 +19,7 @@ bot = Client('droplink bot',
 async def start(bot, message):
     await message.reply(
         f"**Hi {message.chat.first_name}! Welcome To my world 😈**\n\n"
-        "**🤖 Iam Tnvalue converter bot\n 🔄 I am a best Tnvalue bot\n🧑‍💻 I was developed @half_intelligent_2 \n ✅For accuses ask @half_intelligent_2 \n 😉 Use me & enjoy **")
+        "**🤖 Iam Tnvalue converter bot\n 🔄 I am a best Tnvalue bot\n🧑‍💻 I was developed @half_intelligent_2 \n ✅For accuses ask @half_intelligent_2 \n 😅Use me & enjoy **")
 
 
 @bot.on_message(filters.regex(r'https?://[^\s]+') & filters.private)
@@ -35,7 +35,7 @@ async def link_handler(bot, message):
 
 
 async def get_shortlink(link):
-    url = 'https://tnvalue.in/api'
+    url = 'https://link.tnvalue.in/api'
     params = {'api': API_KEY, 'url': link}
 
     async with aiohttp.ClientSession() as session:
